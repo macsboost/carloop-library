@@ -27,7 +27,7 @@ struct CarloopRevision2
     static constexpr auto CAN_ENABLE_ACTIVE = LOW;
     static constexpr auto CAN_ENABLE_INACTIVE = HIGH;
 
-    static constexpr auto GPS_BAUD_RATE = 9600;
+    static constexpr auto GPS_BAUD_RATE = 115200;
     static constexpr auto GPS_ENABLE_PIN = A0;
     static constexpr auto GPS_ENABLE_ACTIVE = HIGH;
     static constexpr auto GPS_ENABLE_INACTIVE = LOW;
